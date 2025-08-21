@@ -23,7 +23,7 @@ class Config(object):
     DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "By {user},\nSee You Again 👋\n\nFrom **{title}**")
 
     # user client config
-    SESSION = os.environ.get("SESSION", "BQGo5ZIAiEi8ZH15WDuCOLhO_ACWqyv2Ogz7FhNY1oDYjTdfkkAud40Lfqn8EtdiNZSAqjpz60-nSzjuFBZSSmHNkUN5zAvSJM4BeQMWPZVsys1EqilAcWE7LysCko92kwXm9iaEthcDOHRlZe8QMvW33K7ithfXyciFYBJih3bkxxlNQ5SztQumFDjtlKZh9n5D-kBUSiYrhPetem8bUh5g_Qz7pqZYLrwH2ZpQ5sVh1f8lgKb00p3q9yTXoyOeyuqHA0fbycXx1yCa8yG6GLQpQzgO98gpfBy8tbx7xmMSBkPqPPoVlTyt_6DOQuDm1Jw03b76moEAjvraqOTyW3HlGMNTSAAAAABOvLKoAA")  # ⚠️ Required @SnowStringGenBot
+    SESSION = os.environ.get("SESSION", "BQBikVT0fhMweh0yuKjh1p23rtLySHWUBX8Avxfz6c44IwQG9dY8SM8qKFe5uuOzTIu4dnIlTYPnH9Q-CGJfRT8a_51HOoVyXkziBJF7mNAjVmCwfyG-7obI9PXgg-xa5q8CDJsHMj-HU89xJ0hsvG3ZrMrWMhbsQoNpZM5fGA1ASjwSrl7PxEYDsUUWbNadM6cts77E378guFfGjUvr-9E1GH1mI4d91EZm3baf9Wh6Og3s0u_TNFT_4OCyO4KCaj5oYDgSBygwA2rxuxrstQ937X0a_D4NMxVSduqVVQL7znHKrERm3gC2ddStM-Vf0ociE2zNaGlHj92ho4Q8IFWVTryyqAA")  # ⚠️ Required @SnowStringGenBot
 
     # wes response configuration
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
